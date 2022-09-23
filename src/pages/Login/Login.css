@@ -1,0 +1,15 @@
+form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+form input, button{
+    margin: 2rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}

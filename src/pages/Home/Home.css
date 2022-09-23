@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-home h3 {
+  padding: 10px;
+}
+
+.container-outs-ins {
+  width: 100vh;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.remove {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.remove img {
+  height: 20px;
+}
+
+.item {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 2px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.top-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-card {
+  color: grey;
+}
+
+.in {
+  padding-top: 5px;
+  color: rgb(55, 250, 55);
+  font-weight: bold;
+}
+
+.out {
+  padding-top: 5px;
+  color: rgb(255, 34, 34);
+  font-weight: bold;
+}
+
+.total {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.total-saidas {
+  margin-bottom: 1rem;
+}
+
+.span-saidas {
+  color: red;
+  font-weight: bold;
+}
+
+.span-entradas {
+  color: rgb(55, 250, 55);
+  font-weight: bold;
+}
+
+
+.alert{
+  padding: 2rem;
+  font-weight: bold;
+  color: #61DAFB;
+}

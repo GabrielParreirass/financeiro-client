@@ -1,0 +1,47 @@
+.form-home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: auto;
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-home button{
+    background-color: transparent;
+    border: 1px solid #61DAFB;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-home button:hover{
+    background-color: #20232a00;
+    color: #61DAFB;
+}
+
+.form-home input{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    
+}
+
+.container-insert{
+    margin: 2rem;
+    text-align: center;
+}
+
+#date{
+    cursor: pointer;
+}
+
+#aviso-calendario{
+    font-size: 0.7rem;
+}

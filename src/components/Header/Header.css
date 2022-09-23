@@ -1,0 +1,21 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61DAFB;
+    color: #20232A;
+}
+
+.header button{
+    background-color: transparent;
+    border: 1px solid #20232A;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header button:hover{
+    background-color: #20232A;
+    color: #61DAFB;
+}
